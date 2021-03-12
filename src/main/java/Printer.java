@@ -1,4 +1,4 @@
-public class Printer implements KataInterface {
+public class Printer implements KataInterface, KataInterface2 {
 
     public static void test() {
         System.out.println("test");
@@ -6,6 +6,11 @@ public class Printer implements KataInterface {
 
     @Override
     public void test1() {
+
+    }
+
+    @Override
+    public void test2() {
 
     }
 }
