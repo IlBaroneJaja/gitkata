@@ -11,6 +11,6 @@ public class Printer implements KataInterface, KataInterface2 {
 
     @Override
     public void test2() {
-
+        System.out.println("test2");
     }
 }
